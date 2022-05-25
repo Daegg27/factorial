@@ -1,9 +1,12 @@
-import math
-
-
 def factorial(num):
-	# your code here
-	answer = math.factorial(num)
+	if num <= 1:
+		return 1
 
-	print (answer)
+	answer = num * factorial(num - 1)
+	
+	return answer
+	
+	
+	
 
+factorial(10)

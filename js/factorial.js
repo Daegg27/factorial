@@ -13,4 +13,4 @@ if (num === 0 || num === 1) {
 
 };
 
-console.log(factorial(45))
+console.log(factorial(4))
